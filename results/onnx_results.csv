@@ -1,0 +1,8 @@
+model,dataset,onnx_top1,ort_cpu_latency_ms
+efficientnet_lite0_baseline,cifar100,72.74,2.049
+efficientnet_lite0_kd,cifar100,76.12,1.954
+mobilenetv2_baseline,cifar100,73.5,1.874
+mobilenetv2_kd,cifar100,76.65,1.847
+nas_best,cifar10,91.04,0.646
+squeezenet_baseline,cifar100,66.69,0.586
+squeezenet_kd,cifar100,68.13,0.514

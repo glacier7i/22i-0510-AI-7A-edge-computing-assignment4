@@ -1,0 +1,42 @@
+{
+ "trial": 20,
+ "val_acc": 86.28,
+ "limits": {
+  "latency_ms": 1.5,
+  "size_mb": 1.0
+ },
+ "hardware": {
+  "latency_ms": 0.5607000000509288,
+  "size_mb": 0.2301168441772461,
+  "peak_rss_mb": 0.01953125,
+  "act_mb": 0.75,
+  "params": 60426.0
+ },
+ "config": {
+  "resolution": 32,
+  "stem": 32,
+  "stages": [
+   {
+    "c": 96,
+    "n": 2,
+    "k": 3,
+    "type": "dws",
+    "act": "silu"
+   },
+   {
+    "c": 96,
+    "n": 2,
+    "k": 5,
+    "type": "dws",
+    "act": "relu"
+   },
+   {
+    "c": 64,
+    "n": 3,
+    "k": 5,
+    "type": "dws",
+    "act": "relu"
+   }
+  ]
+ }
+}

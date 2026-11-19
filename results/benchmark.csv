@@ -1,0 +1,9 @@
+model,dataset,top1,top5,params_M,macs_M,checkpoint_MB,act_mem_MB,torch_cpu_ms,onnx_MB,ort_cpu_ms,ort_throughput_img_s,peak_rss_MB
+teacher_resnet50,cifar100,79.71,95.18,23.705,1298.0,45.41,2.0,80.282,,,,
+efficientnet_lite0_baseline,cifar100,72.75,93.18,3.499,95.8,13.6,0.75,4.004,13.3,1.806,558.0,0.04
+mobilenetv2_baseline,cifar100,73.51,93.52,2.352,88.1,9.2,1.125,4.23,8.94,1.608,589.0,0.02
+squeezenet_baseline,cifar100,66.73,90.31,0.777,24.2,3.03,0.5,2.441,2.96,0.389,2609.0,0.02
+efficientnet_lite0_kd,cifar100,76.12,94.73,3.499,95.8,13.6,0.75,3.986,13.3,1.814,571.0,0.02
+mobilenetv2_kd,cifar100,76.66,94.86,2.352,88.1,9.2,1.125,4.279,8.94,1.576,600.0,0.02
+nas_best,cifar10,91.04,99.8,0.06,21.9,0.27,0.75,1.408,0.23,0.528,1639.0,0.02
+squeezenet_kd,cifar100,68.1,90.94,0.777,24.2,3.03,0.5,2.456,2.96,0.395,2630.0,0.02

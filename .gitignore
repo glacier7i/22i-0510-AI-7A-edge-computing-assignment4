@@ -1,0 +1,12 @@
+# datasets (downloaded automatically when missing)
+data/
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# run logs and temporary files
+logs/
+checkpoints/resume_*.pt*
+results/nas_study.db
+onnx/_candidate.onnx
+submission/
